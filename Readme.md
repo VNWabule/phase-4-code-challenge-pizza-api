@@ -45,8 +45,8 @@ This is a RESTful API for a pizza restaurant, built with Flask and SQLAlchemy. I
 ## 📚 API Endpoints
 
 1. **GET /pizzas**
-    Returns a list of all pizzas
-    Response:
+    - Returns a list of all pizzas
+    - Response:
     ```json
     [
         {
@@ -62,8 +62,8 @@ This is a RESTful API for a pizza restaurant, built with Flask and SQLAlchemy. I
     ]
 
 2. **GET /restaurants**
-    Returns a list of restaurants
-    Response:
+    - Returns a list of restaurants
+    - Response:
     ```json
     [
         {
@@ -79,8 +79,8 @@ This is a RESTful API for a pizza restaurant, built with Flask and SQLAlchemy. I
     ]
 
 3. **GET /restaurants/<int:id>**
-    Returns a single restaurant and the pizzas it offers.
-    Response:
+    - Returns a single restaurant and the pizzas it offers.
+    - Response:
     ```json
     {
         "address": "123 Main St",
@@ -101,8 +101,8 @@ This is a RESTful API for a pizza restaurant, built with Flask and SQLAlchemy. I
     }
 
 4. **POST /restaurant_pizzas**
-    Creates a new-pizza association with a price
-    Request body:
+    - Creates a new-pizza association with a price
+    - Request body:
     ```json
     {
      "price": 15,
