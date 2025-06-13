@@ -18,7 +18,7 @@ This is a RESTful API for a pizza restaurant, built with Flask and SQLAlchemy. I
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/VNWabule/phase-4-code-challenge-pizza-api
+   git clone git@github.com:VNWabule/phase-4-code-challenge-pizza-api.git
    cd phase-4-code-challenge-pizza-api
 
 2. **Create and activate a virtual environment**
